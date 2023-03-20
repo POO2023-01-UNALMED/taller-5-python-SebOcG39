@@ -1,9 +1,9 @@
-from gestion import Zona
-import Mamifero
-import Ave
-import Reptil
-import Pez
-import Anfibio
+from gestion.Zona import Zona
+from .Mamifero import Mamifero
+from .Ave import Ave
+from .Reptil import Reptil
+from .Pez import Pez
+from .Anfibio import Anfibio
 
 class Animal():
     _totalAnimales = 0

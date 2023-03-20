@@ -1,3 +1,4 @@
+from .Zona import Zona
 class Zoologico():
     def __init__(self, nombre=None, ubicacion=None, zonas=[]):
         self._nombre = nombre

@@ -1,5 +1,5 @@
-from gestion.Zona import Zona
-from .Animal import Animal
+from gestion.zona import Zona
+from .animal import Animal
 
 class Reptil(Animal):
     iguanas = 0

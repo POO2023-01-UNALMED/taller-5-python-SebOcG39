@@ -1,5 +1,5 @@
-from gestion.Zona import Zona
-from .Animal import Animal
+from gestion.zona import Zona
+from .animal import Animal
 
 class Ave(Animal):
     _listado = []

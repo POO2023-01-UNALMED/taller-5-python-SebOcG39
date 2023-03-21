@@ -1,9 +1,8 @@
-from .zoologico import Zoologico
 class Zona():
-    def __init__(self, nombre=None, zoo=None, animales=[]):
+    def __init__(self, nombre=None, zoo=None, animales=None):
         self._nombre = nombre
         self._zoo = zoo
-        self._animales = animales
+        self._animales = [animales]
     
     def agregarAnimales(self, animal):
         self._animales.append(animal)
